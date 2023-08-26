@@ -1,0 +1,12 @@
+class Reverse
+{
+    // Complete the function
+    // str: input string
+    public static String reverseWord(String str)
+    {
+        // Reverse the string str
+        StringBuilder newStr=new StringBuilder(str);
+        newStr.reverse();
+        return newStr.toString();
+    }
+}
