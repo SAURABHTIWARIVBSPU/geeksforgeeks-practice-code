@@ -14,21 +14,13 @@ Explanation:
 
 
 -------------------------------------------------------------------------------------------------------------------code------------------------------------------------------------------------------------------------
-
 class Solution{
     static String compareNM(int n,int m){
         // code here
-        n=4;
-        m=8;
-    if(n>m){
-        return "greator";
-    }
-    else if(n<m)
-    {
-        return "lesser";
-    }
-    else{
-        return "equal";
-    }
+ if(n==m)
+ return "equal";
+ if(n>m)
+ return "greater";
+ return "lesser";
     }
 }
